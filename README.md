@@ -2,6 +2,10 @@
 
 This example calls our [Chrono24 Listings Scraper](https://apify.com/piotrv1001/chrono24-listings-scraper) on Apify. It does not implement a scraper from scratch.
 
+![Chrono24 listings-only dataset with asking prices](./chrono24_results.png)
+
+This larger screenshot shows shallow listings. The code below requests full details for three watches, including reference and condition fields.
+
 ## What this example does
 
 - Requests three GMT-Master listings with full watch details
@@ -82,6 +86,7 @@ items.forEach((item) => {
 ## Related resources
 
 - [How to compare Chrono24 watch prices by reference](https://www.falconscrape.com/blog/how-to-compare-chrono24-watch-prices-by-reference)
+- [Companion post hero artwork](./chrono24_blog.png)
 
 ## License
 
